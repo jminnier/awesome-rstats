@@ -34,6 +34,9 @@ knitr::opts_chunk$set(
 )
 ```
 
+# r markdown
+
+- tabs: `## title {.tabset .tabset-fade}` in tab header ([stack overflow q](https://stackoverflow.com/questions/38062706/rmarkdown-tabbed-and-untabbed-headings))
 
 # visualization
 
@@ -57,4 +60,14 @@ for(i in names(ghibli::ghibli_palettes)) print(ghibli::ghibli_palette(i))
 # data summary
 
 - `skimr` package
-- 
+- `summarytools` [dcomtois/summarytools](https://github.com/dcomtois/summarytools)
+
+```{r, results='asis'}
+#install.packages("devtools")
+library(summarytools)
+dfSummary(iris, plain.ascii = FALSE, style = "grid")
+```
+
+## data dictionary
+
+- [Jennifer Thompson's Data Dictionary example](https://gist.github.com/jenniferthompson/1e6059569214807bbc7db472ff117442)
