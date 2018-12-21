@@ -1,7 +1,7 @@
 R Stuff
 ================
 Jessica Minnier
-2018-12-14
+2018-12-21
 
 -   [r markdown](#r-markdown)
 -   [visualization](#visualization)
@@ -10,6 +10,9 @@ Jessica Minnier
 -   [data summary](#data-summary)
     -   [Data Frame Summary](#data-frame-summary)
     -   [data dictionary](#data-dictionary)
+-   [Analysis](#analysis)
+    -   [table 1](#table-1)
+-   [Helper functions](#helper-functions)
 
 r markdown
 ==========
@@ -149,3 +152,18 @@ data dictionary
 ---------------
 
 -   [Jennifer Thompson's Data Dictionary example](https://gist.github.com/jenniferthompson/1e6059569214807bbc7db472ff117442)
+
+Analysis
+========
+
+table 1
+-------
+
+-   [compareGroups package](https://cran.r-project.org/web/packages/compareGroups/vignettes/compareGroups_vignette.html) \#\# survival
+
+-   [SurvivalAnalysis package](https://cran.r-project.org/web/packages/survivalAnalysis/vignettes/univariate.html)
+
+Helper functions
+================
+
+-   [tidytidbits](https://cran.r-project.org/web/packages/tidytidbits/readme/README.html)

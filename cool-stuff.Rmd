@@ -71,3 +71,16 @@ dfSummary(iris, plain.ascii = FALSE, style = "grid")
 ## data dictionary
 
 - [Jennifer Thompson's Data Dictionary example](https://gist.github.com/jenniferthompson/1e6059569214807bbc7db472ff117442)
+
+# Analysis
+
+## table 1
+
+- [compareGroups package](https://cran.r-project.org/web/packages/compareGroups/vignettes/compareGroups_vignette.html)
+## survival
+
+- [SurvivalAnalysis package](https://cran.r-project.org/web/packages/survivalAnalysis/vignettes/univariate.html)
+
+# Helper functions
+
+- [tidytidbits](https://cran.r-project.org/web/packages/tidytidbits/readme/README.html)
