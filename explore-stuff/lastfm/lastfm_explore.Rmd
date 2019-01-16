@@ -1,0 +1,68 @@
+---
+title: "Untitled"
+author: "Name"
+date: '`r Sys.Date()`'
+output:   
+  html_document:
+    code_folding: hide
+    highlight: pygments
+    keep_md: no
+    number_sections: yes
+    smart: yes
+    theme: yeti
+    toc: yes
+    toc_float: yes
+---
+
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(readxl)
+library(skimr)
+library(janitor)
+library(jmmisc)
+#devtools::install_github("zappingseb/analyze_last_fm")
+library(analyzelastfm)
+library(lubridate)
+library(ggplot2)
+library(gridExtra)
+library(grid)
+library(ggrepel)
+library(scales)
+
+#### Global chunk options -----------------------------
+
+knitr::opts_chunk$set(
+  eval       = TRUE,    # whether to run code in code chunk
+  include    = TRUE,    # whether to include the chunk output
+  echo       = FALSE,   # Whether to show code chunk in final output
+  error      = TRUE,    # whether to display error messages
+  message    = FALSE,   # whether to preserve messages
+  warning    = FALSE,   # whether to preserve warnings
+  comment    = "#>",    # a character string to append at start
+                        # of each line of results in final document
+  tidy       = FALSE,   # whether to tidy code chunks for display
+  dpi        = 96, 
+  fig.width  = 6,       # consistent width for figures
+  fig.asp    = 0.618,   # the golden ratio, can be adjusted in individual chunks
+  out.width  = "100%",   # controls the output size
+  fig.align  = "center" # give plot room to breathe
+)
+```
+
+# Explore Last.FM data
+
+Based on blog post by [Rcrastinate](https://rcrastinate.blogspot.com/2019/01/10-years-of-playback-history-on-lastfm.html)
+
+```{r}
+
+
+lkey <- "< Last.FM API key goes here >"
+lkey <- "f41393cfa89f10d40e7123dee9184377"
+
+data <- 2003:2018 %>% map(~ UserData$new("minnier731", lkey, year = .))
+data <- UserData$new("minnier731", lkey, year = 2006) # ERROR...
+
+scrobs <- bind_rows(data)
+```
+
