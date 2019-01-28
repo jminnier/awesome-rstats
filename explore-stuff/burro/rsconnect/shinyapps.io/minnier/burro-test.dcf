@@ -1,0 +1,13 @@
+name: burro-test
+title: burro-test
+username:
+account: minnier
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 647468
+bundleId: 1818045
+url: https://minnier.shinyapps.io/burro-test/
+when: 1547657747.74616
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: cool-stuff.md|cool-stuff.Rmd|LICENSE|README.md|cool-stuff_files/figure-markdown_github/unnamed-chunk-1-1.png|explore-stuff/.DS_Store|explore-stuff/burro/run-burro.R|explore-stuff/lastfm/lastfm_explore.Rmd
