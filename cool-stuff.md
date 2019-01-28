@@ -158,3 +158,6 @@ IIIIIIIIIIIIIIII</td>
 # Helper functions
 
   - [tidytidbits](https://cran.r-project.org/web/packages/tidytidbits/readme/README.html)
+  - [emilelagour/lamisc](https://github.com/emilelatour/lamisc) - in
+    development, I’ve been using `pvalr()` function for formatting
+    p-values
