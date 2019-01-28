@@ -1,0 +1,39 @@
+---
+title: "Tidyverse functions that I always forget"
+author: "Jessica Minnier"
+date: '`r Sys.Date()`'
+output:   
+  github_document:
+    toc: yes
+---
+
+<!-- The .md file is generated from a .Rmd file, please edit the .Rmd file! -->
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(readxl)
+library(skimr)
+library(janitor)
+library(jmmisc)
+#### Global chunk options -----------------------------
+
+knitr::opts_chunk$set(
+  eval       = TRUE,    # whether to run code in code chunk
+  include    = TRUE,    # whether to include the chunk output
+  echo       = FALSE,   # Whether to show code chunk in final output
+  error      = TRUE,    # whether to display error messages
+  message    = FALSE,   # whether to preserve messages
+  warning    = FALSE,   # whether to preserve warnings
+  comment    = "#>",    # a character string to append at start
+                        # of each line of results in final document
+  tidy       = FALSE,   # whether to tidy code chunks for display
+  dpi        = 96, 
+  fig.width  = 6,       # consistent width for figures
+  fig.asp    = 0.618,   # the golden ratio, can be adjusted in individual chunks
+  out.width  = "100%",   # controls the output size
+  fig.align  = "center" # give plot room to breathe
+)
+```
+
+
+- [`tibble::enframe()`](https://tibble.tidyverse.org/reference/enframe.html) converts a named vector to a tibble and `tibble::deframe()` does the opposite
