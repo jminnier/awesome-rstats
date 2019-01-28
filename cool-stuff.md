@@ -1,59 +1,49 @@
 R Stuff
 ================
 Jessica Minnier
-2018-12-21
+2019-01-28
 
--   [r markdown](#r-markdown)
--   [visualization](#visualization)
-    -   [palettes](#palettes)
-    -   [ggplot themes](#ggplot-themes)
--   [data summary](#data-summary)
-    -   [Data Frame Summary](#data-frame-summary)
-    -   [data dictionary](#data-dictionary)
--   [Analysis](#analysis)
-    -   [table 1](#table-1)
--   [Helper functions](#helper-functions)
+<!-- The .md file is generated from a .Rmd file, please edit the .Rmd file! -->
 
-r markdown
-==========
+# r markdown
 
--   tabs: `## title {.tabset .tabset-fade}` in tab header ([stack overflow q](https://stackoverflow.com/questions/38062706/rmarkdown-tabbed-and-untabbed-headings))
+  - tabs: `## title {.tabset .tabset-fade}` in tab header ([stack
+    overflow
+    q](https://stackoverflow.com/questions/38062706/rmarkdown-tabbed-and-untabbed-headings))
 
-visualization
-=============
+# visualization
 
-palettes
---------
+## palettes
 
--   studio gihbli palettes [ewenme/ghibli](https://github.com/ewenme/ghibli)
+  - studio gihbli palettes
+    [ewenme/ghibli](https://github.com/ewenme/ghibli)
 
-<img src="cool-stuff_files/figure-markdown_github/unnamed-chunk-1-1.png" width="100%" style="display: block; margin: auto;" />
+<img src="cool-stuff_files/figure-gfm/unnamed-chunk-1-1.png" width="100%" style="display: block; margin: auto;" />
 
-ggplot themes
--------------
+## ggplot themes
 
--   ggthemes
+  - ggthemes
 
-data summary
-============
+# data summary
 
--   `skimr` package
--   `summarytools` [dcomtois/summarytools](https://github.com/dcomtois/summarytools)
+  - `skimr` package
+  - `summarytools`
+    [dcomtois/summarytools](https://github.com/dcomtois/summarytools)
 
 ### Data Frame Summary
 
-**iris**
+**iris**  
 **N:** 150
 
 <table>
 <colgroup>
-<col width="4%" />
-<col width="14%" />
-<col width="24%" />
-<col width="19%" />
-<col width="20%" />
-<col width="8%" />
-<col width="9%" />
+<col style="width: 4%" />
+<col style="width: 14%" />
+<col style="width: 24%" />
+<col style="width: 19%" />
+<col style="width: 20%" />
+<col style="width: 8%" />
+<col style="width: 9%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -68,102 +58,103 @@ data summary
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>1</p></td>
-<td><p>Sepal.Length<br />
-[numeric]</p></td>
-<td><p>mean (sd) : 5.84 (0.83)<br />
+<td>1</td>
+<td>Sepal.Length<br />
+[numeric]</td>
+<td>mean (sd) : 5.84 (0.83)<br />
 min &lt; med &lt; max :<br />
 4.3 &lt; 5.8 &lt; 7.9<br />
-IQR (CV) : 1.3 (0.14)</p></td>
-<td><p>35 distinct values</p></td>
+IQR (CV) : 1.3 (0.14)</td>
+<td>35 distinct values</td>
 <td></td>
-<td><p>150<br />
-(100%)</p></td>
-<td><p>0<br />
-(0%)</p></td>
+<td>150<br />
+(100%)</td>
+<td>0<br />
+(0%)</td>
 </tr>
 <tr class="even">
-<td><p>2</p></td>
-<td><p>Sepal.Width<br />
-[numeric]</p></td>
-<td><p>mean (sd) : 3.06 (0.44)<br />
+<td>2</td>
+<td>Sepal.Width<br />
+[numeric]</td>
+<td>mean (sd) : 3.06 (0.44)<br />
 min &lt; med &lt; max :<br />
 2 &lt; 3 &lt; 4.4<br />
-IQR (CV) : 0.5 (0.14)</p></td>
-<td><p>23 distinct values</p></td>
+IQR (CV) : 0.5 (0.14)</td>
+<td>23 distinct values</td>
 <td></td>
-<td><p>150<br />
-(100%)</p></td>
-<td><p>0<br />
-(0%)</p></td>
+<td>150<br />
+(100%)</td>
+<td>0<br />
+(0%)</td>
 </tr>
 <tr class="odd">
-<td><p>3</p></td>
-<td><p>Petal.Length<br />
-[numeric]</p></td>
-<td><p>mean (sd) : 3.76 (1.77)<br />
+<td>3</td>
+<td>Petal.Length<br />
+[numeric]</td>
+<td>mean (sd) : 3.76 (1.77)<br />
 min &lt; med &lt; max :<br />
 1 &lt; 4.35 &lt; 6.9<br />
-IQR (CV) : 3.5 (0.47)</p></td>
-<td><p>43 distinct values</p></td>
+IQR (CV) : 3.5 (0.47)</td>
+<td>43 distinct values</td>
 <td></td>
-<td><p>150<br />
-(100%)</p></td>
-<td><p>0<br />
-(0%)</p></td>
+<td>150<br />
+(100%)</td>
+<td>0<br />
+(0%)</td>
 </tr>
 <tr class="even">
-<td><p>4</p></td>
-<td><p>Petal.Width<br />
-[numeric]</p></td>
-<td><p>mean (sd) : 1.2 (0.76)<br />
+<td>4</td>
+<td>Petal.Width<br />
+[numeric]</td>
+<td>mean (sd) : 1.2 (0.76)<br />
 min &lt; med &lt; max :<br />
 0.1 &lt; 1.3 &lt; 2.5<br />
-IQR (CV) : 1.5 (0.64)</p></td>
-<td><p>22 distinct values</p></td>
+IQR (CV) : 1.5 (0.64)</td>
+<td>22 distinct values</td>
 <td></td>
-<td><p>150<br />
-(100%)</p></td>
-<td><p>0<br />
-(0%)</p></td>
+<td>150<br />
+(100%)</td>
+<td>0<br />
+(0%)</td>
 </tr>
 <tr class="odd">
-<td><p>5</p></td>
-<td><p>Species<br />
-[factor]</p></td>
-<td><p>1. setosa<br />
+<td>5</td>
+<td>Species<br />
+[factor]</td>
+<td>1. setosa<br />
 2. versicolor<br />
-3. virginica</p></td>
-<td><p>50 (33.3%)<br />
+3. virginica</td>
+<td>50 (33.3%)<br />
 50 (33.3%)<br />
-50 (33.3%)</p></td>
-<td><p>IIIIIIIIIIIIIIII<br />
+50 (33.3%)</td>
+<td>IIIIIIIIIIIIIIII<br />
 IIIIIIIIIIIIIIII<br />
-IIIIIIIIIIIIIIII</p></td>
-<td><p>150<br />
-(100%)</p></td>
-<td><p>0<br />
-(0%)</p></td>
+IIIIIIIIIIIIIIII</td>
+<td>150<br />
+(100%)</td>
+<td>0<br />
+(0%)</td>
 </tr>
 </tbody>
 </table>
 
-data dictionary
----------------
+## data dictionary
 
--   [Jennifer Thompson's Data Dictionary example](https://gist.github.com/jenniferthompson/1e6059569214807bbc7db472ff117442)
+  - [Jennifer Thompson’s Data Dictionary
+    example](https://gist.github.com/jenniferthompson/1e6059569214807bbc7db472ff117442)
 
-Analysis
-========
+# Analysis
 
-table 1
--------
+## table 1
 
--   [compareGroups package](https://cran.r-project.org/web/packages/compareGroups/vignettes/compareGroups_vignette.html) \#\# survival
+  - [compareGroups
+    package](https://cran.r-project.org/web/packages/compareGroups/vignettes/compareGroups_vignette.html)
 
--   [SurvivalAnalysis package](https://cran.r-project.org/web/packages/survivalAnalysis/vignettes/univariate.html)
+## survival
 
-Helper functions
-================
+  - [SurvivalAnalysis
+    package](https://cran.r-project.org/web/packages/survivalAnalysis/vignettes/univariate.html)
 
--   [tidytidbits](https://cran.r-project.org/web/packages/tidytidbits/readme/README.html)
+# Helper functions
+
+  - [tidytidbits](https://cran.r-project.org/web/packages/tidytidbits/readme/README.html)

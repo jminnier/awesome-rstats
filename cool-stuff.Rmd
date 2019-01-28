@@ -7,6 +7,7 @@ output:
     toc: yes
 ---
 
+<!-- The .md file is generated from a .Rmd file, please edit the .Rmd file! -->
 
 ```{r setup, include=FALSE}
 library(tidyverse)
@@ -77,6 +78,7 @@ dfSummary(iris, plain.ascii = FALSE, style = "grid")
 ## table 1
 
 - [compareGroups package](https://cran.r-project.org/web/packages/compareGroups/vignettes/compareGroups_vignette.html)
+
 ## survival
 
 - [SurvivalAnalysis package](https://cran.r-project.org/web/packages/survivalAnalysis/vignettes/univariate.html)
@@ -84,3 +86,4 @@ dfSummary(iris, plain.ascii = FALSE, style = "grid")
 # Helper functions
 
 - [tidytidbits](https://cran.r-project.org/web/packages/tidytidbits/readme/README.html)
+
