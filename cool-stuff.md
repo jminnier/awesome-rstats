@@ -1,7 +1,7 @@
 R Stuff
 ================
 Jessica Minnier
-2019-01-28
+2019-03-27
 
 <!-- The .md file is generated from a .Rmd file, please edit the .Rmd file! -->
 
@@ -10,6 +10,9 @@ Jessica Minnier
   - tabs: `## title {.tabset .tabset-fade}` in tab header ([stack
     overflow
     q](https://stackoverflow.com/questions/38062706/rmarkdown-tabbed-and-untabbed-headings))
+  - [Alison Hill’s slides on
+    `xaringan`](https://arm.rbind.io/slides/xaringan.html) from
+    Rstudio::conf2019 Advanced R Markdown (so many good tips\!\!)
 
 # visualization
 
@@ -154,6 +157,10 @@ IIIIIIIIIIIIIIII</td>
 
   - [SurvivalAnalysis
     package](https://cran.r-project.org/web/packages/survivalAnalysis/vignettes/univariate.html)
+
+## missing data
+
+  - [misscompare](https://cran.r-project.org/web/packages/missCompare/vignettes/misscompare.html)
 
 # Helper functions
 
