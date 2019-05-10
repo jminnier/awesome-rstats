@@ -37,3 +37,8 @@ knitr::opts_chunk$set(
 
 
 - [`tibble::enframe()`](https://tibble.tidyverse.org/reference/enframe.html) converts a named vector to a tibble and `tibble::deframe()` does the opposite
+- [`forcats::fct_infreq()`](https://forcats.tidyverse.org/reference/fct_inorder.html) reorders a character or factor column in place, and can be used in ggplot:
+```{r}
+ggplot(mtcars %>% mutate(carb = as.character(carb)), aes(fct_infreq(carb),fill=carb)) + geom_bar()
+```
+
