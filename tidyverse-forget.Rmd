@@ -20,7 +20,7 @@ library(jmmisc)
 knitr::opts_chunk$set(
   eval       = TRUE,    # whether to run code in code chunk
   include    = TRUE,    # whether to include the chunk output
-  echo       = FALSE,   # Whether to show code chunk in final output
+  echo       = TRUE,   # Whether to show code chunk in final output
   error      = TRUE,    # whether to display error messages
   message    = FALSE,   # whether to preserve messages
   warning    = FALSE,   # whether to preserve warnings
@@ -40,5 +40,13 @@ knitr::opts_chunk$set(
 - [`forcats::fct_infreq()`](https://forcats.tidyverse.org/reference/fct_inorder.html) reorders a character or factor column in place, and can be used in ggplot:
 ```{r}
 ggplot(mtcars %>% mutate(carb = as.character(carb)), aes(fct_infreq(carb),fill=carb)) + geom_bar()
+```
+
+- [`stringr::str_detect`](https://stringr.tidyverse.org/reference/str_detect.html) can be used to search for multiple strings in a vector by using `paste` collapse:
+
+```{r}
+fruit <- c("apple", "banana", "pear", "pinapple")
+mystrings <- c("apple","pear","grape")
+str_detect(fruit, paste(mystrings,collapse="|"))
 ```
 
