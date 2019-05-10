@@ -1,7 +1,7 @@
 R Stuff
 ================
 Jessica Minnier
-2019-03-27
+2019-03-29
 
 <!-- The .md file is generated from a .Rmd file, please edit the .Rmd file! -->
 
@@ -12,7 +12,12 @@ Jessica Minnier
     q](https://stackoverflow.com/questions/38062706/rmarkdown-tabbed-and-untabbed-headings))
   - [Alison Hill’s slides on
     `xaringan`](https://arm.rbind.io/slides/xaringan.html) from
-    Rstudio::conf2019 Advanced R Markdown (so many good tips\!\!)
+    Rstudio::conf2019 Advanced R Markdown (so many good
+    tips\!\!)
+  - [gadenbuie/xaringangthemer](https://github.com/gadenbuie/xaringanthemer)
+    automatic generator of xaringan themes
+  - [gadenbuie’s xaringan decouple code and output, column
+    layouts](https://www.garrickadenbuie.com/blog/decouple-code-and-output-in-xaringan-slides/)
 
 # visualization
 
@@ -168,3 +173,9 @@ IIIIIIIIIIIIIIII</td>
   - [emilelagour/lamisc](https://github.com/emilelatour/lamisc) - in
     development, I’ve been using `pvalr()` function for formatting
     p-values
+
+# Other resources
+
+  - [Data Science with R, A Resource
+    Compendium](https://bookdown.org/martin_monkman/DataScienceResources_book/)
+    by Martin Monkman

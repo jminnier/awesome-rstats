@@ -39,6 +39,8 @@ knitr::opts_chunk$set(
 
 - tabs: `## title {.tabset .tabset-fade}` in tab header ([stack overflow q](https://stackoverflow.com/questions/38062706/rmarkdown-tabbed-and-untabbed-headings))
 - [Alison Hill's slides on `xaringan`](https://arm.rbind.io/slides/xaringan.html) from Rstudio::conf2019 Advanced R Markdown (so many good tips!!)
+- [gadenbuie/xaringangthemer](https://github.com/gadenbuie/xaringanthemer) automatic generator of xaringan themes
+- [gadenbuie's xaringan decouple code and output, column layouts](https://www.garrickadenbuie.com/blog/decouple-code-and-output-in-xaringan-slides/)
 
 # visualization
 
@@ -92,4 +94,8 @@ dfSummary(iris, plain.ascii = FALSE, style = "grid")
 
 - [tidytidbits](https://cran.r-project.org/web/packages/tidytidbits/readme/README.html)
 - [emilelagour/lamisc](https://github.com/emilelatour/lamisc) - in development, I've been using `pvalr()` function for formatting p-values
+
+# Other resources
+
+- [Data Science with R, A Resource Compendium](https://bookdown.org/martin_monkman/DataScienceResources_book/) by Martin Monkman
 
