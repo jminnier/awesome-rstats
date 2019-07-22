@@ -1,0 +1,102 @@
+-   [For beginners](#for-beginners)
+    -   [Interactive lessons](#interactive-lessons)
+    -   [Slides/videos](#slidesvideos)
+    -   [Textbooks (online, free)](#textbooks-online-free)
+    -   [Blog posts](#blog-posts)
+    -   [Resources](#resources)
+    -   [Blogs](#blogs)
+-   [Statistics in R](#statistics-in-r)
+    -   [Interactive lessons](#interactive-lessons-1)
+-   [More R](#more-r)
+    -   [Textbooks/tutorials](#textbookstutorials)
+
+<!-- The .md file is generated from a .Rmd file, please edit the .Rmd file! -->
+For beginners
+=============
+
+Interactive lessons
+-------------------
+
+-   [R bootcamp](https://t.co/GEXiDgm5nG) - interactive lessons in
+    tidyverse/broom/stats, [Ted Laderas](https://laderast.github.io/)
+    and Jessica Minnier (me)
+-   [Rstudio Cloud primers](https://t.co/FQMcHOpb42) - Interactive
+    lessons (using learnr) on the basics of R, visualization, tidyverse.
+    Requires a free Rstudio Cloud account.
+-   [Intro to Stats for Data Science - Categorical
+    Data](https://minnier.shinyapps.io/ODSI_categoricalData/) - Oregon
+    Data Science Institute workshop, [Ted
+    Laderas](https://laderast.github.io/) and Jessica Minnier
+-   [Intro to Stats for Data Science - Continuous
+    Data](https://minnier.shinyapps.io/ODSI_continuousData/) - Oregon
+    Data Science Institute workshop, Jessica Minnier and [Ted
+    Laderas](https://laderast.github.io/)
+
+Slides/videos
+-------------
+
+-   [OHSU OCTRI BERD
+    Workshops](https://github.com/jminnier/berd_r_courses) - workshops
+    taught by Jessica Minnier and [Meike
+    Niederhausen](https://github.com/Niederhausen),
+    [recordings](https://echo360.org/section/aefe4e1c-c635-4a3b-bf99-ce6439184f5f/public)
+    -   Introduction to R and Rstudio
+        [slides](https://jminnier-berd-r-courses.netlify.com/01-getting-started/01_getting_started_slides.html)
+    -   Data Wrangling in R with the Tidyverse [part 1
+        slides](https://jminnier-berd-r-courses.netlify.com/02-data-wrangling-tidyverse/02_data_wrangling_slides_part1.html),
+        [part 2
+        slides](https://jminnier-berd-r-courses.netlify.com/02-data-wrangling-tidyverse/02_data_wrangling_slides_part2.html#1)
+    -   Reproducible Reports with R Markdown
+        [slides](https://jminnier-berd-r-courses.netlify.com/03-rmarkdown/03_rmarkdown_slides.html)
+
+Textbooks (online, free)
+------------------------
+
+-   [R for Data Science](https://r4ds.had.co.nz/) - Hadley Wickham and
+    Garrett Grolemond
+-   [Hands on Programming with
+    R](https://rstudio-education.github.io/hopr/index.html) - Garrett
+    Grolemund
+-   [Modern Dive: Statistical Inference via Data
+    Science](https://moderndive.com/) - Chester Ismay and Albert Y. Kim;
+    an intro to statistics using R/tidyverse, gives basic introduction
+    to R and Rstudio and programming, great for beginners.
+
+Blog posts
+----------
+
+-   [Basic basics - R and
+    Rstudio](http://rladiessydney.org/post/2018/11/05/basicbasics/) - R
+    Ladies Sydney, includes an [Opinionated Tour of
+    Rstudio](http://rladiessydney.org/post/2018/11/05/basicbasics-1/)
+
+Resources
+---------
+
+-   [R for Data Science Online
+    Community](https://twitter.com/R4DScommunity) - join their slack
+    channel. A community of R learners at all skill levels working
+    together to improve our skills.
+
+Blogs
+-----
+
+Statistics in R
+===============
+
+Interactive lessons
+-------------------
+
+-   [Generalized Additive Models (GAMs) in
+    R](https://noamross.github.io/gams-in-r-course/) - Interactive
+    course by Noam Ross
+
+More R
+======
+
+Textbooks/tutorials
+-------------------
+
+-   [A gRadual Introuction to
+    Shiny](https://laderast.github.io/gradual_shiny/) - [Ted
+    Laderas](https://laderast.github.io/) and Jessica Minnier
