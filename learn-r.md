@@ -1,3 +1,14 @@
+---
+title: "Materials for learning R"
+author: "Jessica Minnier"
+date: '2019-07-22'
+output:   
+  md_document:
+    variant: gfm
+    toc: true
+    preserve_yaml: true
+---
+
 <!-- The .md file is generated from a .Rmd file, please edit the .Rmd file! -->
 
 # For beginners
