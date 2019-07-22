@@ -15,6 +15,7 @@ library(readxl)
 library(skimr)
 library(janitor)
 library(jmmisc)
+library(ghibli)
 #### Global chunk options -----------------------------
 
 knitr::opts_chunk$set(

@@ -1,7 +1,7 @@
 R Stuff
 ================
 Jessica Minnier
-2019-03-29
+2019-07-22
 
 <!-- The .md file is generated from a .Rmd file, please edit the .Rmd file! -->
 
@@ -38,113 +38,14 @@ Jessica Minnier
   - `summarytools`
     [dcomtois/summarytools](https://github.com/dcomtois/summarytools)
 
-### Data Frame Summary
+<!-- end list -->
 
-**iris**  
-**N:** 150
+    #> Error: package or namespace load failed for 'summarytools':
+    #>  .onLoad failed in loadNamespace() for 'tcltk', details:
+    #>   call: fun(libname, pkgname)
+    #>   error: X11 library is missing: install XQuartz from xquartz.macosforge.org
 
-<table>
-<colgroup>
-<col style="width: 4%" />
-<col style="width: 14%" />
-<col style="width: 24%" />
-<col style="width: 19%" />
-<col style="width: 20%" />
-<col style="width: 8%" />
-<col style="width: 9%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>No</th>
-<th>Variable</th>
-<th>Stats / Values</th>
-<th>Freqs (% of Valid)</th>
-<th>Text Graph</th>
-<th>Valid</th>
-<th>Missing</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>1</td>
-<td>Sepal.Length<br />
-[numeric]</td>
-<td>mean (sd) : 5.84 (0.83)<br />
-min &lt; med &lt; max :<br />
-4.3 &lt; 5.8 &lt; 7.9<br />
-IQR (CV) : 1.3 (0.14)</td>
-<td>35 distinct values</td>
-<td></td>
-<td>150<br />
-(100%)</td>
-<td>0<br />
-(0%)</td>
-</tr>
-<tr class="even">
-<td>2</td>
-<td>Sepal.Width<br />
-[numeric]</td>
-<td>mean (sd) : 3.06 (0.44)<br />
-min &lt; med &lt; max :<br />
-2 &lt; 3 &lt; 4.4<br />
-IQR (CV) : 0.5 (0.14)</td>
-<td>23 distinct values</td>
-<td></td>
-<td>150<br />
-(100%)</td>
-<td>0<br />
-(0%)</td>
-</tr>
-<tr class="odd">
-<td>3</td>
-<td>Petal.Length<br />
-[numeric]</td>
-<td>mean (sd) : 3.76 (1.77)<br />
-min &lt; med &lt; max :<br />
-1 &lt; 4.35 &lt; 6.9<br />
-IQR (CV) : 3.5 (0.47)</td>
-<td>43 distinct values</td>
-<td></td>
-<td>150<br />
-(100%)</td>
-<td>0<br />
-(0%)</td>
-</tr>
-<tr class="even">
-<td>4</td>
-<td>Petal.Width<br />
-[numeric]</td>
-<td>mean (sd) : 1.2 (0.76)<br />
-min &lt; med &lt; max :<br />
-0.1 &lt; 1.3 &lt; 2.5<br />
-IQR (CV) : 1.5 (0.64)</td>
-<td>22 distinct values</td>
-<td></td>
-<td>150<br />
-(100%)</td>
-<td>0<br />
-(0%)</td>
-</tr>
-<tr class="odd">
-<td>5</td>
-<td>Species<br />
-[factor]</td>
-<td>1. setosa<br />
-2. versicolor<br />
-3. virginica</td>
-<td>50 (33.3%)<br />
-50 (33.3%)<br />
-50 (33.3%)</td>
-<td>IIIIIIIIIIIIIIII<br />
-IIIIIIIIIIIIIIII<br />
-IIIIIIIIIIIIIIII</td>
-<td>150<br />
-(100%)</td>
-<td>0<br />
-(0%)</td>
-</tr>
-</tbody>
-</table>
+    #> Error in dfSummary(iris, plain.ascii = FALSE, style = "grid"): could not find function "dfSummary"
 
 ## data dictionary
 
