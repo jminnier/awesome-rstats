@@ -4,9 +4,7 @@ author: "Jessica Minnier"
 date: '`r Sys.Date()`'
 output:   
   md_document:
-    variant: gfm
     toc: true
-    preserve_yaml: true
 ---
 
 <!-- The .md file is generated from a .Rmd file, please edit the .Rmd file! -->
