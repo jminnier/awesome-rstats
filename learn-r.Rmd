@@ -9,7 +9,7 @@ output:
 
 <!-- The .md file is generated from a .Rmd file, please edit the .Rmd file! -->
 
-# For beginners
+# Learning R/Rstudio for beginners
 
 ## Interactive lessons
 

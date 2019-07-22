@@ -1,4 +1,4 @@
--   [For beginners](#for-beginners)
+-   [Learning R/Rstudio for beginners](#learning-rrstudio-for-beginners)
     -   [Interactive lessons](#interactive-lessons)
     -   [Slides/videos/online courses](#slidesvideosonline-courses)
     -   [Textbooks (online, free)](#textbooks-online-free)
@@ -12,8 +12,8 @@
     -   [Textbooks/tutorials](#textbookstutorials)
 
 <!-- The .md file is generated from a .Rmd file, please edit the .Rmd file! -->
-For beginners
-=============
+Learning R/Rstudio for beginners
+================================
 
 Interactive lessons
 -------------------
