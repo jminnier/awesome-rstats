@@ -59,6 +59,7 @@
 
 ## Blog posts
 
+  - [R Weekly’s list of Tutorials](https://rweekly.org/2017-20.html)
   - [Basic basics - R and
     Rstudio](http://rladiessydney.org/post/2018/11/05/basicbasics/) - R
     Ladies Sydney, includes an [Opinionated Tour of
