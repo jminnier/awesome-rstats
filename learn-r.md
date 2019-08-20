@@ -1,4 +1,5 @@
 -   [Learning R/Rstudio for beginners](#learning-rrstudio-for-beginners)
+-   [Similar lists of resources](#similar-lists-of-resources)
     -   [Interactive lessons](#interactive-lessons)
     -   [Slides/videos/online courses](#slidesvideosonline-courses)
     -   [Textbooks (online, free)](#textbooks-online-free)
@@ -15,6 +16,12 @@
 Learning R/Rstudio for beginners
 ================================
 
+Similar lists of resources
+==========================
+
+-   [rstats-ed repository by Rstudio education/Mine Cetinkaya
+    Rundel](https://github.com/rstudio-education/rstats-ed)
+
 Interactive lessons
 -------------------
 
@@ -25,6 +32,10 @@ Interactive lessons
     lessons (using learnr) on the basics of R, visualization, tidyverse.
     Requires a free Rstudio Cloud account.
 -   [Swirl](https://swirlstats.com/)
+-   [To R from Stata: An
+    Introduction](https://rslbliss.shinyapps.io/R_from_Stata/) -
+    learning R for Stata users, by [Richard S.L.
+    Blissett](http://rslblissett.com/)
 
 Slides/videos/online courses
 ----------------------------
