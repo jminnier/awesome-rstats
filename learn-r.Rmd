@@ -11,7 +11,7 @@ output:
 
 # Learning R/Rstudio for beginners
 
-# Similar lists of resources
+## Similar lists of resources
 
 - [rstats-ed repository by Rstudio education/Mine Cetinkaya Rundel](https://github.com/rstudio-education/rstats-ed)
 

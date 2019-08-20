@@ -1,5 +1,5 @@
 -   [Learning R/Rstudio for beginners](#learning-rrstudio-for-beginners)
--   [Similar lists of resources](#similar-lists-of-resources)
+    -   [Similar lists of resources](#similar-lists-of-resources)
     -   [Interactive lessons](#interactive-lessons)
     -   [Slides/videos/online courses](#slidesvideosonline-courses)
     -   [Textbooks (online, free)](#textbooks-online-free)
@@ -17,7 +17,7 @@ Learning R/Rstudio for beginners
 ================================
 
 Similar lists of resources
-==========================
+--------------------------
 
 -   [rstats-ed repository by Rstudio education/Mine Cetinkaya
     Rundel](https://github.com/rstudio-education/rstats-ed)
