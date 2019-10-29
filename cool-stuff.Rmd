@@ -96,6 +96,10 @@ dfSummary(iris, plain.ascii = FALSE, style = "grid")
 - [tidytidbits](https://cran.r-project.org/web/packages/tidytidbits/readme/README.html)
 - [emilelagour/lamisc](https://github.com/emilelatour/lamisc) - in development, I've been using `pvalr()` function for formatting p-values
 
+# Data Science models/methods examples
+
+- [Data Science Workshop (from ASA, JSM, etc)](https://github.com/happyrabbit/DataScienceWorkshop2019) - Hui Lin - lots of lessons in big data analysis and workbook examples with R code
+
 # Other resources
 
 - [Data Science with R, A Resource Compendium](https://bookdown.org/martin_monkman/DataScienceResources_book/) by Martin Monkman
