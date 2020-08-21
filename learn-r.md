@@ -21,6 +21,7 @@ Similar lists of resources
 
 -   [rstats-ed repository by Rstudio education/Mine Cetinkaya
     Rundel](https://github.com/rstudio-education/rstats-ed)
+-   [learn R for free](https://www.learnr4free.com/en/index.html)
 
 Interactive lessons
 -------------------
@@ -63,6 +64,11 @@ Slides/videos/online courses
 -   [Getting Started with
     R](https://rfortherestofus.com/courses/getting-started/) - David
     Keys
+    
+Useful short videos
+----------------------------
+
+-   [Getting data into R](https://rstudio.com/resources/webinars/getting-data-into-r/)
 
 Textbooks (online, free)
 ------------------------
@@ -83,6 +89,7 @@ Textbooks (online, free)
     R](https://bookdown.org/ndphillips/YaRrr/) - Nathaniel D. Phillips
 -   [Topics in STAT545 at UBC](https://stat545.com/topics.html) - Data
     wrangling, exploration, and analysis with R
+-   [Open Intro: Introduction to Statistics for the Life and Biomedical Sciences](https://www.openintro.org/book/biostat/) - self paced labs and videos for learning biostatistics with R examples
 
 Blog posts
 ----------
