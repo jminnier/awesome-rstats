@@ -28,6 +28,7 @@ output:
     + Introduction to R and Rstudio [slides](https://jminnier-berd-r-courses.netlify.com/01-getting-started/01_getting_started_slides.html)
     + Data Wrangling in R with the Tidyverse [part 1 slides](https://jminnier-berd-r-courses.netlify.com/02-data-wrangling-tidyverse/02_data_wrangling_slides_part1.html), [part 2 slides](https://jminnier-berd-r-courses.netlify.com/02-data-wrangling-tidyverse/02_data_wrangling_slides_part2.html#1)
     + Reproducible Reports with R Markdown [slides](https://jminnier-berd-r-courses.netlify.com/03-rmarkdown/03_rmarkdown_slides.html)
+- [Ready for R - course by Ted Laderas](https://ready4r.netlify.app/)
 - [Software Carpentry - R Novice](https://swcarpentry.github.io/r-novice-inflammation/)
 - [Software Carpentry - R for Reproducible Scientific Analysis](https://swcarpentry.github.io/r-novice-gapminder/)
 - [Chromebook's Intro to R](https://leanpub.com/universities/courses/jhu/cbds-intro-r) - sliding scale of $
