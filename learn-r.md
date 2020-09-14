@@ -32,6 +32,8 @@ Interactive lessons
 -   [Rstudio Cloud primers](https://t.co/FQMcHOpb42) - Interactive
     lessons (using learnr) on the basics of R, visualization, tidyverse.
     Requires a free Rstudio Cloud account.
+-   [Teacup
+    Giraffes](https://tinystats.github.io/teacups-giraffes-and-statistics/index.html)
 -   [Swirl](https://swirlstats.com/)
 -   [To R from Stata: An
     Introduction](https://rslbliss.shinyapps.io/R_from_Stata/) -
